@@ -52,7 +52,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.finfocus.app.R
 import com.finfocus.app.domain.model.Account
-import com.finfocus.app.presentation.components.LoadingOverlay
+import com.finfocus.app.presentation.components.EmptyState
 import com.finfocus.app.presentation.util.AccountIcons
 import com.finfocus.app.presentation.util.formatByr
 import com.finfocus.app.ui.theme.FinFocusTheme
@@ -109,18 +109,23 @@ fun DashboardScreen(
     val activeAccountId = selectedId ?: accounts.firstOrNull()?.id ?: ""
 
     Scaffold { padding ->
-        // Задача 4.6: показываем загрузку пока нет данных
-        if (accounts.isEmpty() && recentTx.isEmpty()) {
-            LoadingOverlay()
-            return@Scaffold
-        }
-
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding),
             contentPadding = PaddingValues(bottom = 24.dp),
         ) {
+            if (accounts.isEmpty()) {
+                item {
+                    EmptyState(
+                        message = stringResource(R.string.empty_accounts),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(200.dp)
+                            .padding(horizontal = 16.dp),
+                    )
+                }
+            } else {
 
             // ── 1. Выбор счёта ────────────────────────────────────
             item {
@@ -206,6 +211,7 @@ fun DashboardScreen(
                     transactions = recentTx,
                     modifier     = Modifier.padding(horizontal = 16.dp),
                 )
+            }
             }
         }
     }
