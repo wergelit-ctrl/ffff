@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Адаптивная иконка FinFocus.
+    Кладётся в res/mipmap-anydpi-v26/ic_launcher.xml
+    и res/mipmap-anydpi-v26/ic_launcher_round.xml (оба одинаковые).
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Фон: тёмно-синий (совпадает с primaryContainer тёмной темы) -->
+    <background android:drawable="@color/ic_launcher_background" />
+    <!-- Передний план: наш вектор с графиком -->
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>

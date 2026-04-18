@@ -1,0 +1,271 @@
+<resources>
+    <string name="app_name">FinFocus</string>
+    <string name="tab_dashboard">Главная</string>
+    <string name="tab_accounts">Счета</string>
+    <string name="tab_budget">Бюджет</string>
+    <string name="tab_plans">Планы</string>
+    <string name="tab_analytics">Аналитика</string>
+
+    <string name="total_balance">Общий баланс</string>
+    <string name="prediction_title">Прогноз FinFocus</string>
+    <string name="wishlist_title">Список покупок</string>
+
+    <string name="accounts_title">Мои счета</string>
+    <string name="new_account">+ Новый счёт</string>
+    <string name="empty_accounts">У вас нет счетов</string>
+
+    <string name="budget_title">Бюджет</string>
+    <string name="envelopes">Конверты</string>
+
+    <string name="debts_title">Долги</string>
+    <string name="debt_tab_owed_to_me">Мне должны</string>
+    <string name="debt_tab_i_owe">Я должен</string>
+    <string name="empty_debts">Список долгов пуст</string>
+
+    <string name="filter_all">Все</string>
+    <string name="status_planned">Планируется</string>
+    <string name="status_saving">Накапливаю</string>
+    <string name="status_bought">Куплено</string>
+    <string name="empty_wishlist">Список целей пуст</string>
+
+    <string name="analytics_title">Аналитика</string>
+
+    <string name="contracts_title">Контракты</string>
+    <string name="contracts_path_label">Папка для Syncthing:</string>
+    <string name="create_new_contract">Создать новый</string>
+    <string name="merge_all">Объединить все</string>
+
+    <string name="debt_notification_title">Напоминание о долге</string>
+    <string name="debt_notification_message">%1$s: сумма %2$s Br</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Добро пожаловать в FinFocus</string>
+    <string name="onboarding_description">Для начала выберите каталог для хранения контрактов. Это обязательный шаг настройки.</string>
+    <string name="onboarding_subtitle">Управляйте финансами, стройте бюджет и предсказывайте расходы</string>
+    <string name="onboarding_feature1_title">Учёт счетов и расходов</string>
+    <string name="onboarding_feature1_desc">Карточки, кошельки, заначки — всё в одном месте</string>
+    <string name="onboarding_feature2_title">Умное планирование</string>
+    <string name="onboarding_feature2_desc">Метод 50/30/20, конверты, прогнозы на 90 дней</string>
+    <string name="onboarding_feature3_title">Синхронизация через файлы</string>
+    <string name="onboarding_feature3_desc">JSON-контракты совместимы с Syncthing</string>
+    <string name="onboarding_storage_section">Хранилище данных</string>
+    <string name="select_folder">Выбрать каталог</string>
+    <string name="folder_not_selected">Каталог не выбран</string>
+    <string name="folder_selected_label">Каталог выбран</string>
+    <string name="continue_label">Продолжить</string>
+
+    <string name="spending_30_days">Расходы за 30 дней</string>
+    <string name="dashboard_budget_label">Бюджет использован: %1$d%%</string>
+    <string name="dashboard_income_label">Доход / 30 дней</string>
+    <string name="dashboard_expense_label">Расход / 30 дней</string>
+    <string name="dashboard_recent_tx_title">Последние операции</string>
+    <string name="balance_over_time">Баланс во времени</string>
+    <string name="income_vs_expense">Доходы vs Расходы</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_theme_system">Тема: системная</string>
+    <string name="budget_method_50_30_20">50/30/20</string>
+    <string name="dashboard_insight_item">• %1$s: %2$s</string>
+    <string name="dashboard_wish_item">%1$s: %2$s / %3$s</string>
+    <string name="contracts_path_value">%1$s %2$s</string>
+    <string name="contract_item_info">%1$s · %2$d</string>
+    <string name="debt_item_info">%1$s: %2$s</string>
+    <string name="analytics_tx_item">%1$s: %2$.2f</string>
+    <string name="plans_item_info">%1$s: %2$s / %3$s</string>
+
+    <!-- Plans screen -->
+    <string name="plans_add_title">Новая цель</string>
+    <string name="plans_name_label">Название цели</string>
+    <string name="plans_price_label">Цена, Br</string>
+    <string name="plans_monthly_label">В месяц, Br</string>
+    <string name="plans_category_label">Категория</string>
+    <string name="plans_priority_label">Приоритет</string>
+    <string name="plans_add_saving">Пополнить накопления</string>
+    <string name="plans_mark_bought">Отметить купленным</string>
+    <string name="plans_add_saving_for">Пополнить: %1$s</string>
+    <string name="plans_months_to_goal">~%1$d мес. до цели</string>
+    <string name="plans_status_bought_label">✓ Куплено</string>
+
+    <!-- Priority badges -->
+    <string name="priority_high">Высокий</string>
+    <string name="priority_medium">Средний</string>
+    <string name="priority_low">Низкий</string>
+    <string name="import_json">Импорт .json</string>
+    <string name="export_all">Экспорт всего</string>
+    <string name="copy_path">Копировать путь</string>
+    <string name="add_transaction_title">Добавить транзакцию</string>
+    <string name="income_type_scholarship">Стипендия</string>
+    <string name="income_type_salary">Зарплата</string>
+    <string name="income_type_service">Оплата за услугу</string>
+    <string name="income_type_gift">Подарок</string>
+    <string name="income_type_debt_return">Возврат долга</string>
+    <string name="income_type_sale">Продажа</string>
+    <string name="income_type_transfer">Перевод</string>
+    <string name="income_type_other">Другое</string>
+    <string name="category_food">Еда</string>
+    <string name="category_housing">Жильё</string>
+    <string name="category_transport">Транспорт</string>
+    <string name="category_health">Здоровье</string>
+    <string name="category_education">Образование</string>
+    <string name="category_clothes">Одежда</string>
+    <string name="category_entertainment">Развлечения</string>
+    <string name="category_communication">Связь и интернет</string>
+    <string name="category_animals">Животные</string>
+    <string name="category_care">Уход за собой</string>
+    <string name="category_gifts">Подарки</string>
+    <string name="category_other">Другое</string>
+    <string name="action_deposit">Пополнить</string>
+    <string name="action_withdraw">Снять</string>
+    <string name="action_transfer">Перевод</string>
+    <string name="action_delete">Удалить</string>
+    <string name="account_name">Название счёта</string>
+    <string name="initial_balance">Начальный баланс, Br</string>
+    <string name="create_action">Создать</string>
+    <string name="amount_byn">Сумма, Br</string>
+    <string name="comment_optional">Комментарий (опционально)</string>
+    <string name="apply_action">Применить</string>
+    <string name="person_name">Имя человека</string>
+    <string name="add_action">Добавить</string>
+    <string name="partial_settle_amount">Сумма частичного погашения, Br</string>
+    <string name="partial_settle_action">Погасить частично</string>
+    <string name="fab_add_short">+</string>
+    <string name="account_type_card">Карточка</string>
+    <string name="account_type_wallet">Кошелёк</string>
+    <string name="account_type_bank">Банковский счёт</string>
+    <string name="account_type_stash">Заначка</string>
+    <string name="account_type_other">Другое</string>
+    <string name="period_week">Неделя</string>
+    <string name="period_month">Месяц</string>
+    <string name="period_year">Год</string>
+    <string name="period_three_months">3 месяца</string>
+    <string name="period_custom">Произвольный</string>
+    <string name="due_date_optional">Дата возврата (опционально)</string>
+    <string name="select_date">Выбрать дату</string>
+    <string name="expense_by_category">Расходы по категориям</string>
+    <string name="forecast_90_days">Прогноз на 90 дней</string>
+    <string name="analytics_category_item">%1$s: %2$.2f</string>
+    <string name="error_amount_positive">Введите сумму больше нуля</string>
+    <string name="error_name_required">Введите название</string>
+    <string name="error_select_target">Выберите счёт получателя</string>
+    <string name="error_select_account">Выберите счёт</string>
+    <string name="wishlist_bought_title">Куплено</string>
+    <string name="empty_wishlist_bought">Купленных позиций пока нет</string>
+    <string name="tab_debts">Долги</string>
+    <string name="settings_contracts">Управление контрактами</string>
+    <string name="settings_reset_onboarding">Сбросить настройки хранилища</string>
+    <string name="settings_reset_onboarding_confirm">Сброс выполнен. Перезапустите приложение.</string>
+    <string name="settings_section_data">Данные</string>
+    <string name="settings_section_appearance">Внешний вид</string>
+    <string name="tx_account_label">Счёт</string>
+    <string name="tx_amount_label">Сумма, Br</string>
+    <string name="tx_category_label">Категория</string>
+    <string name="tx_note_label">Заметка (опционально)</string>
+    <string name="tx_type_income">Доход</string>
+    <string name="tx_type_expense">Расход</string>
+    <string name="tx_save_button">Сохранить</string>
+    <string name="tx_no_accounts">Сначала создайте счёт</string>
+    <string name="no_data_yet">Данных пока нет</string>
+    <string name="cancel_action">Отмена</string>
+
+    <!-- Debt screen -->
+    <string name="debt_total_label">Итого</string>
+    <string name="debt_due_date_label">Срок: %1$s</string>
+    <string name="debt_add_title">Добавить долг</string>
+
+    <!-- Analytics screen -->
+    <string name="analytics_tx_section">Транзакции за период: %1$d</string>
+
+    <!-- Settings -->
+    <string name="settings_storage_folder">Папка хранилища</string>
+    <string name="settings_reset_onboarding_hint">Изменить папку хранилища контрактов</string>
+    <string name="settings_reset_onboarding_body">Текущая папка хранилища будет сброшена. При следующем запуске потребуется выбрать папку снова.</string>
+    <string name="settings_theme_coming_soon">Light / Dark / System — скоро</string>
+    <string name="settings_about_subtitle">v1.0.0 · Личный финансовый трекер</string>
+
+    <!-- Budget -->
+    <string name="budget_set_income">Указать доход</string>
+    <string name="budget_income_label">Ежемесячный доход, Br</string>
+    <string name="budget_income_hint">Введите доход чтобы рассчитать лимиты по категориям</string>
+    <string name="budget_empty_hint">Укажите ежемесячный доход чтобы активировать бюджет</string>
+
+    <!-- Contracts -->
+    <string name="contracts_list_title">Файлы контрактов: %1$d</string>
+    <string name="contract_detail_info">%1$d операций · %2$s</string>
+    <string name="contract_archived_label">архив</string>
+
+    <!-- П2: категории -->
+    <string name="spend_dialog_title">Потратить</string>
+    <string name="spend_choose_category">Выберите категорию</string>
+    <string name="spend_button_label">Потратить · %1$s</string>
+    <string name="settings_categories_title">Категории расходов</string>
+    <string name="categories_add_title">Новая категория</string>
+    <string name="categories_name_label">Название категории</string>
+    <string name="categories_group_label">Группа бюджета</string>
+    <string name="categories_icon_label">Иконка</string>
+    <string name="categories_delete_confirm_title">Удалить категорию?</string>
+    <string name="categories_delete_confirm_body">Категория «%1$s» будет удалена. Транзакции не изменятся.</string>
+
+    <!-- П3: Dashboard + Settings -->
+    <string name="settings_categories_hint">Настроить категории расходов и группы 50/30/20</string>
+    <string name="dashboard_select_account">Выберите счёт</string>
+
+    <!-- П5: Бюджет -->
+    <string name="budget_income_monthly">Ежемесячный доход</string>
+    <string name="budget_send_to_savings">Отправить в «%1$s»</string>
+    <string name="budget_send_to_savings_title">Отправить в сбережения</string>
+    <string name="budget_send_to_savings_body">Перевести с «%1$s» на «%2$s»</string>
+    <string name="budget_send_action">Перевести</string>
+    <string name="budget_savings_not_configured">Укажите основной счёт и счёт сбережений в Настройках</string>
+
+    <!-- П6: Аналитика -->
+    <string name="analytics_budget_groups_title">Расходы по 50/30/20</string>
+
+    <!-- П7: Счета -->
+    <string name="accounts_set_primary">Сделать основным счётом ★</string>
+    <string name="accounts_set_savings">Сделать счётом сбережений</string>
+    <string name="accounts_icon_label">Иконка счёта</string>
+
+    <!-- П8: Долги -->
+    <string name="debt_paid_of">Оплачено %1$s из %2$s</string>
+    <string name="debt_closed_label">Закрыт</string>
+    <string name="debt_pay_partial">Оплатить</string>
+    <string name="debt_pay_full">Оплатить полностью (%1$s)</string>
+    <string name="debt_remaining">Долг «%1$s»: осталось %2$s</string>
+    <string name="debt_pay_from_account">Списать со счёта</string>
+    <string name="debt_set_due_date">Срок возврата (необязательно)</string>
+
+    <!-- П9: Планы/Мечты -->
+    <string name="plans_withdraw_warning_title">Снять накопления?</string>
+    <string name="plans_withdraw_warning_body">Вы собираетесь снять накопления с мечты «%1$s». Текущий прогресс: %2$s. Деньги вернутся на счёт.</string>
+    <string name="plans_withdraw_confirm">Снять</string>
+    <string name="plans_withdraw_for">Снять с: %1$s</string>
+
+    <!-- Спринт 2: Spend/Deposit/Receipt -->
+    <string name="spend_tap_to_enter_amount">Нажмите чтобы ввести сумму</string>
+    <string name="spend_confirm">Списать</string>
+    <string name="deposit_confirm">Зачислить</string>
+    <string name="deposit_choose_category">Источник дохода</string>
+    <string name="receipt_expense_title">Списание выполнено</string>
+    <string name="receipt_income_title">Пополнение выполнено</string>
+    <string name="receipt_category">Категория</string>
+    <string name="receipt_date">Дата и время</string>
+    <string name="receipt_type">Тип операции</string>
+
+    <!-- Спринт 3 -->
+    <string name="accounts_already_primary">★ Уже основной</string>
+    <string name="accounts_already_savings">Уже счёт сбережений</string>
+    <string name="budget_tap_to_edit">Нажмите для изменения</string>
+    <string name="budget_savings_20_percent_hint">20% от баланса основного счёта</string>
+    <string name="debt_create_i_owe_title">Я должен</string>
+    <string name="debt_create_owed_to_me_title">Мне должны</string>
+    <string name="debt_hint_i_owe">Укажите кому и сколько вы должны. При погашении деньги спишутся с вашего счёта.</string>
+    <string name="debt_hint_owed_to_me">Укажите кто и сколько должен вам. При погашении деньги поступят на ваш счёт.</string>
+
+    <!-- Спринт 4 -->
+    <string name="plans_section_active">Активные</string>
+    <string name="plans_section_uncertain">Под вопросом</string>
+    <string name="plans_mark_uncertain">Пометить «под вопросом»</string>
+    <string name="plans_plan_category_label">Раздел (напр. Техника, Путешествия)</string>
+    <string name="error_init_title">Ошибка загрузки данных</string>
+    <string name="error_init_body">Не удалось загрузить финансовые данные. Проверьте хранилище и повторите попытку.</string>
+    <string name="error_retry_action">Повторить</string>
+</resources>
